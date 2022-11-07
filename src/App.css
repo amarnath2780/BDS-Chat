@@ -147,3 +147,102 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+.search{
+    border-bottom: 1px solid #999 ;
+}
+.search .search-from {
+    padding: 10px;
+}
+.search .search-from input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+.userChat{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.userChat:hover{
+    background-color:#303a3e ;
+}
+
+.userChat img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;  
+}
+
+.userChat .userChatInfo span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.userChat  .userChatInfo p{
+    color: #555;
+}
+.chat .chatInfo{
+    height: 50px;
+    background-color: #151b1f ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999;
+    
+}
+.chat .pro {
+    padding-left: 10px;
+   display: flex;
+   gap: 15px;
+}
+
+.chat .pro img{
+    width: 24px;
+    height: 24px;
+    background-color: #ddddf7;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.input{
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.input input{
+     width: 100%;
+     border: none;
+     outline: none;
+     color: #555;
+     font-size: 18px;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.send img{
+    height: 2px;
+    cursor: pointer;
+}
+
+.send button{
+    border: none;
+    padding: 10px 15px;
+    color: #202528;
+    cursor: pointer;
+    border-radius: 10px;
+}
